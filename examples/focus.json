@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "name": "Company Work",
+      "match": ["~/work/*", "/Users/you/gitrepo/company/*"],
+      "details": "Focus • Company",
+      "state": "In {cwd_short} • git:{branch}",
+      "large_image": "warp",
+      "small_image": "zsh",
+      "buttons": [{ "label": "Docs", "url": "https://intranet.example.com" }],
+      "reset_timer_on_enter": true
+    },
+    {
+      "name": "Default for gitrepo",
+      "match": ["/Users/you/gitrepo/*", "~/gitrepo/*"],
+      "details": "Focus • Dev",
+      "state": "{cwd_short} • git:{branch}",
+      "large_image": "warp",
+      "small_image": "zsh"
+    }
+  ]
+}

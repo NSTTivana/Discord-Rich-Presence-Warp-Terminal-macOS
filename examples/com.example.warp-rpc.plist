@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key><string>com.example.warp-rpc</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/{USERNAME}/path/to/warp-discord-presence/.venv/bin/python3</string>
+      <string>/Users/{USERNAME}/path/to/warp-discord-presence/warp_discord_presence.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/{USERNAME}/path/to/warp-discord-presence</string>
+
+    <key>RunAtLoad</key><true/>
+    <key>KeepAlive</key><true/>
+
+    <key>StandardOutPath</key><string>/tmp/warp-rpc.out</string>
+    <key>StandardErrorPath</key><string>/tmp/warp-rpc.err</string>
+  </dict>
+</plist>

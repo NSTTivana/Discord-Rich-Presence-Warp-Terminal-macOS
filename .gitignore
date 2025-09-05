@@ -1,0 +1,13 @@
+.venv/
+*.pyc
+__pycache__/
+.DS_Store
+.tmp/
+tmp/
+.idea/
+.vscode/
+.env
+.env.*
+# local state files
+*.log
+/tmp/

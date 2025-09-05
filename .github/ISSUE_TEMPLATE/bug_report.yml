@@ -1,0 +1,13 @@
+name: Bug report
+description: Report a bug
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Steps to reproduce and expected vs actual.
+    validations: { required: true }
+  - type: textarea
+    attributes:
+      label: Logs
+      description: Paste relevant logs from /tmp/warp-rpc.err or console
