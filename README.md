@@ -3,7 +3,9 @@
 Show your **Warp Terminal** activity on Discord with custom text, icons, buttons, and a **Focus Mode** for specific folders — **no client mods**, fully TOS‑friendly.
 
 <p align="center">
-  <img alt="screenshot" src="docs/screenshot.png" width="480">
+  <img src="docs/screenshot.png" alt="Discord Rich Presence — Warp" width="480">
+  <br>
+  <a href="https://discord.com/developers/docs/intro">Discord Developer Docs</a>
 </p>
 
 ---
